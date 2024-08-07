@@ -17,7 +17,7 @@ import insta from "../../assets/insta.png";
 import github from "../../assets/github.png";
 import twitter from "../../assets/twitter.png";
 import ionic from "../../assets/ionic.png";
-import capacitor from "../../assets/capacitor.png";
+import mssql from "../../assets/mssql.png";
 import android from "../../assets/android.png";
 import "./Skill.css";
 
@@ -37,65 +37,75 @@ function Skills() {
           <Techs techTitle={"React Js"} image={skill5} />
           <Techs techTitle={"Angular"} image={skill6} />
           <Techs techTitle={"Ionic"} image={ionic} />
-          <Techs techTitle={"Capacitor"} image={capacitor} />
           <Techs techTitle={"Android Studio"} image={android} />
-          <Techs techTitle={"Tailwind CSS"} image={skill7} />
+          <Techs techTitle={"IOS App"} image={skill7} />
           <Techs techTitle={"TypeScript"} image={skill8} />
           <Techs techTitle={"Node Js"} image={skill10} />
-          <Techs techTitle={"Mongo DB"} image={skill9} />
+          <Techs techTitle={"PHP"} image={skill9} />
+          <Techs techTitle={"MS SQL"} image={mssql} />
           <Techs techTitle={"My SQL"} image={skill11} />
           <Techs techTitle={"Python"} image={skill12} />
         </div>
+      </div>
 
-        <div className="w-full h-36 float-left mt-16" id="contact">
-          <div className="w-1/2 h-full float-left border-r-2" id="section">
-            <div className="w-full h-10 text-white font-bold text-xl text-center">
-              Experience
-            </div>
-            <p className="w-full h-10 text-gray-200 font-medium text-center">
-              2 years +
-            </p>
-            <p className="w-full h-10 text-gray-200 font-medium text-center">
-              Professional Experiance in Full Stack Development
-            </p>
-          </div>
+      <div className="w-full h-auto float-left mt-16" id="contact">
 
-          <div className="w-1/2 h-full float-left" id="section">
-            <div className="w-full h-10 text-white font-bold text-xl text-center">
-              Contact me
-            </div>
-            <p className="w-full h-10 text-gray-200 font-medium text-center">
-            akhileshkr1098@gmail.com
-            </p>
+        <div className="w-full h-auto float-left flex justify-center items-center">
+          <div className="w-[80%] h-auto">
+            <h1 className="w-full h-10 text-teal-50 font-semibold text-xl text-center">Experience</h1>
+            
+            <div className="w-full h-auto float-left flex-col border-t-2 border-b-2">
+              <h1 className="text-white font-semibold mt-4 text-lg">👉🏻 Macreel Infosoft Private Limited (Noida).</h1>
+              <p className="text-white mt-3">Position : Software Developer (Angular)</p>
+              <p className="text-white mt-3">Duration : 07/2023 - Present</p>
 
-            <div className="w-full h-12 float-left flex justify-center items-center">
-              <p className="w-9 h-9 ml-4">
-                <a href="https://www.linkedin.com/in/akhileshkr1098/" target="_blank">
-                  <img src={linkedin} alt="" />
-                </a>
-              </p>
-              <p className="w-10 h-10 ml-4">
-                <a href="https://twitter.com/Kumar_Akhilesh0" target="_blank">
-                  <img src={twitter} alt="" />
-                </a>
-              </p>
-              <p className="w-10 h-10 ml-4">
-                <a href="https://github.com/akhileshkr1098" target="_blank">
-                  <img src={github} alt="" />
-                </a>
-              </p>
-              <p className="w-9 h-9 ml-4">
-                <a
-                  href="https://www.instagram.com/_r_o_h_i_tkumar_"
-                  target="_blank"
-                >
-                  <img src={insta} alt="" />
-                </a>
-              </p>
+
+              <h1 className="text-white font-semibold mt-4 text-lg">👉🏻 Green Soft (Hajipur Bihar).</h1>
+              <p className="text-white mt-3">Position : Angular Developer Intern</p>
+              <p className="text-white mt-3">Duration : 12/2022 - 06/2023</p>
+
+
+              <h1 className="text-white font-semibold mt-4 text-lg">👉🏻 Shree Ram IT Solutions (Hajipur Bihar).</h1>
+              <p className="text-white mt-3">Position : Web Designer Intern</p>
+              <p className="text-white mt-3 pb-4">Duration : 05/2022 - 10/2022</p>
+
             </div>
+
           </div>
         </div>
+
+        <div className="w-full h-12 float-left flex justify-center items-center mt-8">
+          <p className="w-9 h-9 ml-4">
+            <a
+              href="https://www.linkedin.com/in/akhileshkr1098/"
+              target="_blank">
+              <img src={linkedin} alt="" />
+            </a>
+          </p>
+
+          <p className="w-10 h-10 ml-4">
+            <a href="https://twitter.com/Kumar_Akhilesh0" target="_blank">
+              <img src={twitter} alt="" />
+            </a>
+          </p>
+
+          <p className="w-10 h-10 ml-4">
+            <a href="https://github.com/akhileshkr1098" target="_blank">
+              <img src={github} alt="" />
+            </a>
+          </p>
+
+          <p className="w-9 h-9 ml-4">
+            <a
+              href="https://www.instagram.com/_r_o_h_i_tkumar_"
+              target="_blank">
+              <img src={insta} alt="" />
+            </a>
+          </p>
+        </div>
+
       </div>
+
     </>
   );
 }

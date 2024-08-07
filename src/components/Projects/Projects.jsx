@@ -5,7 +5,6 @@ import project2 from "../../assets/project_2.jpg";
 import project3 from "../../assets/project_3.jpg";
 import project4 from "../../assets/project_4.jpg";
 import project5 from "../../assets/project_5.jpg";
-import project6 from "../../assets/project_6.jpg";
 import project7 from "../../assets/project_7.jpg";
 import project8 from "../../assets/project_8.jpg";
 import "./Project.css";
@@ -26,38 +25,32 @@ function Projects() {
           />
           <Card
             image={project1}
-            projectName={"Quizard"}
-            onBtnClick={"https://quizard-r7lm.vercel.app/"}
-            codeLink={"https://github.com/akhileshkr1098"}
-          />
-          <Card
-            image={project2}
-            projectName={"PreviousAdda"}
-            onBtnClick={"https://rohitkumar773.github.io/previousadda/"}
-            codeLink={"https://github.com/akhileshkr1098"}
-          />
-          <Card
-            image={project3}
-            projectName={"Green Soft"}
-            onBtnClick={"https://rohitkumar773.github.io/green-soft/"}
+            projectName={"Heera"}
+            onBtnClick={"https://play.google.com/store/apps/details?id=com.heerafacility.app&hl=en_IN"}
             codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project4}
-            projectName={"Killn'it"}
-            onBtnClick={"https://rohitkumar773.github.io/killnit/"}
+            projectName={"Turning Brain"}
+            onBtnClick={"https://play.google.com/store/apps/details?id=tbrain.in.medical.eduapp&hl=en_IN"}
+            codeLink={"https://github.com/akhileshkr1098"}
+          />
+          <Card
+            image={project2}
+            projectName={"Sankalp Foundation"}
+            onBtnClick={"http://sankalpfoundations.org/"}
+            codeLink={"https://github.com/akhileshkr1098"}
+          />
+          <Card
+            image={project3}
+            projectName={"AddBox"}
+            onBtnClick={"https://addbox.in/"}
             codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project5}
-            projectName={"InfoZone"}
-            onBtnClick={"https://rohitkumar773.github.io/mywikipidia/"}
-            codeLink={"https://github.com/akhileshkr1098"}
-          />
-          <Card
-            image={project6}
-            projectName={"Oasis Infobyte"}
-            onBtnClick={"https://rohitkumar773.github.io/oibLandingPage/"}
+            projectName={"Sankalp Education"}
+            onBtnClick={"https://www.sankalpcomputer.com/"}
             codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
