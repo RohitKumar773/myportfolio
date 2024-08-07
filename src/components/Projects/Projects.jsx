@@ -22,49 +22,49 @@ function Projects() {
             image={project7}
             projectName={"EducatorBox"}
             onBtnClick={"https://educatorbox.com"}
-            codeLink={"https://github.com/AkhileshKr1098/EducatorBoxApp"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project1}
             projectName={"Quizard"}
             onBtnClick={"https://quizard-r7lm.vercel.app/"}
-            codeLink={"https://github.com/RohitKumar773/quizard-code"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project2}
             projectName={"PreviousAdda"}
             onBtnClick={"https://rohitkumar773.github.io/previousadda/"}
-            codeLink={"https://github.com/RohitKumar773/previousaddafrontend"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project3}
             projectName={"Green Soft"}
             onBtnClick={"https://rohitkumar773.github.io/green-soft/"}
-            codeLink={"https://github.com/RohitKumar773/green-soft"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project4}
             projectName={"Killn'it"}
             onBtnClick={"https://rohitkumar773.github.io/killnit/"}
-            codeLink={"https://github.com/RohitKumar773/killnit"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project5}
             projectName={"InfoZone"}
             onBtnClick={"https://rohitkumar773.github.io/mywikipidia/"}
-            codeLink={"https://github.com/RohitKumar773/infoZone-Project"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project6}
             projectName={"Oasis Infobyte"}
             onBtnClick={"https://rohitkumar773.github.io/oibLandingPage/"}
-            codeLink={"https://github.com/RohitKumar773/oibLandingPage"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
           <Card
             image={project8}
             projectName={"Ali Skills Centre"}
             onBtnClick={"https://aliskillscentre.com"}
-            codeLink={"https://github.com/RohitKumar773/AliSkillCentre"}
+            codeLink={"https://github.com/akhileshkr1098"}
           />
         </div>
       </div>

@@ -16,19 +16,19 @@ function Header() {
           id="menu"
         >
           <ul className="">
-            <li className="float-left mr-10 font-mono hover:text-blue-400 duration-200 hover:cursor-pointer">
+            <li className="float-left mr-10 font-mono hover:text-red-400 duration-200 hover:cursor-pointer">
               <a href="#">Home</a>
             </li>
-            <li className="float-left mr-10 font-mono hover:text-blue-400 duration-200 hover:cursor-pointer">
+            <li className="float-left mr-10 font-mono hover:text-red-400 duration-200 hover:cursor-pointer">
               <a href="#about">About</a>
             </li>
-            <li className="float-left mr-10 font-mono hover:text-blue-400 duration-200 hover:cursor-pointer">
+            <li className="float-left mr-10 font-mono hover:text-red-400 duration-200 hover:cursor-pointer">
               <a href="#skill">Skills</a>
             </li>
-            <li className="float-left mr-10 font-mono hover:text-blue-400 duration-200 hover:cursor-pointer">
+            <li className="float-left mr-10 font-mono hover:text-red-400 duration-200 hover:cursor-pointer">
               <a href="#project">Projects</a>
             </li>
-            <li className="float-left mr-10 font-mono hover:text-blue-400 duration-200 hover:cursor-pointer">
+            <li className="float-left mr-10 font-mono hover:text-red-400 duration-200 hover:cursor-pointer">
               <a href="#contact">Contact</a>
             </li>
           </ul>

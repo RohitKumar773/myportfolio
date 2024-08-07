@@ -7,10 +7,10 @@ function Home() {
   return (
     <div className="w-full h-auto float-left" data-aos="fade-up"
     data-aos-duration="1000">
-      <div className="w-full h-80 float-left flex justify-center items-center mt-20 flex-col">
+      <div className="w-full h-80 float-left flex justify-center items-center mt-20 flex-col" id="img">
         <img src={portfrolioimg} alt="" className="h-full mt-48"/>
-        <h1 className="text-3xl font-bold text-center float-left bg-gradient-to-tr
-         from-red-700 to-white text-transparent bg-clip-text">
+        <h1 className="text-3xl font-bold text-center float-left bg-gradient-to-bl
+         from-red-500 to-white text-transparent bg-clip-text">
           👋 I'm Akhilesh , <br className="hidden" id="br"/>full stack developer
           <br /> based in India.
         </h1>
